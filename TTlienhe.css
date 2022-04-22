@@ -3,7 +3,7 @@ html{
 }
 nav{
     height: 35px;
-    background: #0099FF;
+    background: #000000;
     margin-bottom: 5px;
 
 }
@@ -16,7 +16,7 @@ nav .menu ul li{
     padding: 0 15px;
 }
 nav .menu ul li a{
-    color: #FFFFCC;
+    color: #00FFFF;
     font-size: 20px;
     padding: 10px 10px;
     text-decoration: none;
