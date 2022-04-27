@@ -1,5 +1,5 @@
 html{
-    background: url(https://wallpaperaccess.com/full/4162156.png);
+    background-color: orange; 
 }
 nav{
     height: 35px;
@@ -51,8 +51,8 @@ svg {
 }
 
 .avatar {
-    width: 999px;
-    height: 350px;
+    width: 55px;
+    height: 55px;
     position:absolute;
     left: 50%;
     top:50%;
