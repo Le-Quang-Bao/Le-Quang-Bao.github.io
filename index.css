@@ -6,7 +6,7 @@
 
 header{
     background-image:linear-gradient(rgba( 0,0,0,0.5 ),rgba( 0,0,0,0.5 )), url(https://github.com/Le-Quang-Bao/Le-Quang-Bao.github.io/blob/main/xu5.jpg?raw=true);
-    height: 70vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
 
@@ -37,9 +37,9 @@ ul li.acctive a{
     transform: translate(-50%,-50%);
 }
 
-.title h3{
+.title h2{
     color: #fff;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .button{
