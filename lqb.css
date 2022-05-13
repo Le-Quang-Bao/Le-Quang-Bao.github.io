@@ -1,10 +1,73 @@
-html{
-    background: #000000;
+*{
+    padding:10;
+    margin:50;
 }
-.title h2{
-    color: #fff;
-    font-size: 50px
+
+body {
+    min-height: 100vh;
+    background:linear-gradient(to right,#2199dc,#14e4f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-a{
-    color: #fff;
-    font-size: 20px
+
+.wp-slider {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.slides input[type ='radio']
+{
+    display: none;
+}
+
+.slides {
+    width: 500%;
+    display: flex;
+}
+
+.active {
+    transition:1s;
+}
+
+
+
+.navigation {
+    position:absolute;
+    width: 1000px;
+    height: 30px;
+    margin-top:-40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation label {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border:2px solid white;
+    margin:0px 20px;
+}
+.navigation label:hover{
+    background:aqua;
+}
+
+#radio1:checked ~ .active {
+    margin-left:0;
+}
+
+#radio2:checked ~ .active {
+    margin-left:-20%;
+}
+
+#radio3:checked ~ .active {
+    margin-left:-40%;
+}
+
+#radio4:checked ~ .active {
+    margin-left:-60%;
+}
